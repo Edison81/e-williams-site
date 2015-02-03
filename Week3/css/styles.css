@@ -1,6 +1,6 @@
 html {
   background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
-  url(../img/blue-background.jpg) no-repeat center center fixed;
+  url(/Users/Edison/Desktop/Edison%20-%20Week%203/Week%203/img/blue-background.jpg) no-repeat center center fixed;
   background-size: 100% auto;
   background-repeat: repeat;
 }
@@ -9,17 +9,22 @@ body {
   font-family: Helvetica, serif;
 }
 
-h1   {
+h1 {
   text-align: center;
   margin-top: 5%;
   color: #FFF;
+} .me-img { width: 200px; height: auto; } 
+
+.me-img {
+  width: 200px;
+  height: auto;
 }
 
-img  {
+img {
   display: block;
   margin: 0 auto;
   margin-top: 3%;
-  width: 200px;
+  width: 300px;
   height: 200px;
 }
 
