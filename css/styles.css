@@ -1,61 +1,273 @@
 html {
   background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
-  url(../img/blue-background.jpg) no-repeat center center fixed;
+  url(../img/blue-background.jpg) repeat center center fixed;
   background-size: 100% auto;
   background-repeat: repeat;
 }
 
 body {
   font-family: Helvetica, serif;
+  width: 100%;
+  height: 100%;
 }
 
-h1 {
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+{
+ h1 {
   text-align: center;
+  font-size: 1.5em;
   margin-top: 5%;
   color: #FFF;
-} .me-img { width: 200px; height: auto; } 
+}  
 
-.me-img {
-  width: 200px;
-  height: auto;
-}
-
-img {
+ .me-img {
   display: block;
   margin: 0 auto;
-  margin-top: 3%;
-  width: 300px;
-  height: 200px;
+  margin-top: 7%;
+  width: 75px;
+  height: auto;
+ }
+
+ .top-p {
+   text-align: center;
+   margin-top: 10%;
+   margin-left: 10%;
+   margin-right: 10%;
+   font-size: .75em;
+   line-height: 1em;
+   color: #FFF;
+ }
+
+ .bot-p {
+   text-align: center;
+   margin-top: 5%;
+   margin-left: 10%;
+   margin-right: 10%;
+   font-size: .75em;
+   line-height: 1em;
+   color: #FFF;
+ }
+
+ .skills-list {
+   color: #FFF;
+   list-style: none;
+   text-align: center;
+   font-size: .5em;
+   margin-top: 7%;
+ }
+
+ .skills-list li {
+   display: inline-block;
+   padding: 10px;
+   font-weight: bold;
+   font-size: .5em;
+ }
 }
 
-.top-p {
-  text-align: center;
-  margin-top: 5%;
-  margin-left: 20%;
-  margin-right: 20%;
-  line-height: 2em;
-  color: #FFF;
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+{
+  h1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 5%;
+    color: #FFF;
+  }
+
+  .me-img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 7%;
+    width: 100px;
+    height: auto;
+  }
+
+  .top-p {
+    text-align: center;
+    margin-top: 7%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #FFF;
+  }
+
+  .bot-p {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #FFF;
+  }
+
+  .skills-list {
+    color: #FFF;
+    list-style: none;
+    font-size: .75em;
+    text-align: center;
+    margin-top: 7%;
+  }
+
+  .skills-list li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: .75em;
+  }
 }
 
-.bot-p {
-  text-align: center;
-  margin-top: 3%;
-  margin-left: 20%;
-  margin-right: 20%;
-  line-height: 2em;
-  color: #FFF;
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+{
+
+  h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 5%;
+    color: #FFF;
+  }
+
+  .me-img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 7%;
+    width: 200px;
+    height: auto;
+  }
+
+  .top-p {
+    text-align: center;
+    margin-top: 7%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #FFF;
+  }
+
+  .bot-p {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #FFF;
+  }
+
+  .skills-list {
+    color: #FFF;
+    list-style: none;
+    text-align: center;
+    font-size: .875em;
+    margin-top: 4%;
+  }
+
+  .skills-list li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: .875em;
+  }
 }
 
-.skills-list {
-  color: #FFF;
-  list-style: none;
-  text-align: center;
-  margin-top: 3%;
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+{
+  .me-img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 3%;
+    width: 200px;
+    height: auto;
+  }
+
+  .top-p {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    color: #FFF;
+  }
+
+  .bot-p {
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    color: #FFF;
+  }
+
+  .skills-list {
+    color: #FFF;
+    list-style: none;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 3%;
+  }
+
+  .skills-list li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: bold;
+  }
 }
 
-.skills-list li {
-  display: inline-block;
-  text-align: center;
-  padding: 10px;
-  font-weight: bold;
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+{
+  .me-img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 3%;
+    width: 200px;
+    height: auto;
+  }
+
+  .top-p {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    color: #FFF;
+  }
+
+  .bot-p {
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    color: #FFF;
+  }
+
+  .skills-list {
+    color: #FFF;
+    list-style: none;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 3%;
+  }
+
+  .skills-list li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: bold;
+  }
 }
