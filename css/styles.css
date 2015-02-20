@@ -63,6 +63,9 @@ body {
    font-weight: bold;
    font-size: .5em;
  }
+ .map {
+    display: none;
+ }
 }
 
 /* Extra Small Devices, Phones */
@@ -117,6 +120,9 @@ body {
     padding: 10px;
     font-weight: bold;
     font-size: .75em;
+  }
+  .map {
+    display: none;
   }
 }
 
@@ -174,6 +180,15 @@ body {
     font-weight: bold;
     font-size: .875em;
   }
+   .map {
+    width: 500px;
+    height: 350px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    position: relative;
+    margin-top: 5%;
+  }
 }
 
 /* Medium Devices, Desktops */
@@ -222,6 +237,15 @@ body {
     font-size: 1em;
     font-weight: bold;
   }
+   .map {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    position: relative;
+    margin-top: 5%;
+  }
 }
 
 /* Large Devices, Wide Screens */
@@ -269,5 +293,14 @@ body {
     padding: 10px;
     font-size: 1em;
     font-weight: bold;
+  }
+   .map {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    position: relative;
+    margin-top: 5%;
   }
 }
