@@ -85,7 +85,7 @@ body {
   }
 
   #form-div {
-    background-color:rgba(72,72,72,0.4);
+    background-color:rgba(60,120,140,0.9);
     padding-left:35px;
     padding-right:35px;
     padding-top:35px;
@@ -99,7 +99,7 @@ body {
   }
 
   .contact-input {
-    color:#3c3c3c;
+    color:#000;
     font-family: Helvetica, Arial, sans-serif;
     font-weight:500;
     font-size: 18px;
@@ -128,8 +128,8 @@ body {
     width: 100%;
     border: #fbfbfb solid 4px;
     cursor:pointer;
-    background-color: #3498db;
-    color:white;
+    background-color: #818181;
+    color:black;
     font-size:14px;
     padding-top:12px;
     padding-bottom:12px;
@@ -201,7 +201,7 @@ body {
   }
 
   #form-div {
-    background-color:rgba(72,72,72,0.4);
+    background-color:rgba(60,120,140,0.9);
     padding-left:35px;
     padding-right:35px;
     padding-top:35px;
@@ -215,7 +215,7 @@ body {
   }
 
   .contact-input {
-    color:#3c3c3c;
+    color:#000;
     font-family: Helvetica, Arial, sans-serif;
     font-weight:500;
     font-size: 18px;
@@ -244,8 +244,8 @@ body {
     width: 100%;
     border: #fbfbfb solid 4px;
     cursor:pointer;
-    background-color: #3498db;
-    color:white;
+    background-color: #818181;
+    color:black;
     font-size:14px;
     padding-top:12px;
     padding-bottom:12px;
@@ -324,7 +324,7 @@ body {
   }
 
   #form-div {
-    background-color:rgba(72,72,72,0.4);
+    background-color:rgba(60,120,140,0.9);
     padding-left:35px;
     padding-right:35px;
     padding-top:35px;
@@ -338,7 +338,7 @@ body {
   }
 
   .contact-input {
-    color:#3c3c3c;
+    color:#000;
     font-family: Helvetica, Arial, sans-serif;
     font-weight:500;
     font-size: 18px;
@@ -367,8 +367,8 @@ body {
     width: 100%;
     border: #fbfbfb solid 4px;
     cursor:pointer;
-    background-color: #3498db;
-    color:white;
+    background-color: #818181;
+    color:black;
     font-size:14px;
     padding-top:12px;
     padding-bottom:12px;
@@ -439,7 +439,7 @@ body {
   }
 
   #form-div {
-    background-color:rgba(72,72,72,0.4);
+    background-color:rgba(60,120,140,0.9);
     padding-left:35px;
     padding-right:35px;
     padding-top:35px;
@@ -453,7 +453,7 @@ body {
   }
 
   .contact-input {
-    color:#3c3c3c;
+    color:#000;
     font-family: Helvetica, Arial, sans-serif;
     font-weight:500;
     font-size: 18px;
@@ -482,8 +482,8 @@ body {
     width: 100%;
     border: #fbfbfb solid 4px;
     cursor:pointer;
-    background-color: #3498db;
-    color:white;
+    background-color: #818181;
+    color:black;
     font-size:14px;
     padding-top:12px;
     padding-bottom:12px;
@@ -554,7 +554,7 @@ body {
   }
 
   #form-div {
-    background-color:rgba(72,72,72,0.4);
+    background-color:rgba(60,120,140,0.9);
     padding-left:35px;
     padding-right:35px;
     padding-top:35px;
@@ -568,7 +568,7 @@ body {
   }
 
   .contact-input {
-    color:#3c3c3c;
+    color:#000;
     font-family: Helvetica, Arial, sans-serif;
     font-weight:500;
     font-size: 18px;
@@ -597,8 +597,8 @@ body {
     width: 100%;
     border: #fbfbfb solid 4px;
     cursor:pointer;
-    background-color: #3498db;
-    color:white;
+    background-color: #818181;
+    color:black;
     font-size:24px;
     padding-top:22px;
     padding-bottom:22px;
