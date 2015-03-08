@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Edison Williams</title>
-    <link href="css/styles.css" type="text/css" rel="stylesheet" />
+    <title>Edison Williams</title>   
     <meta name="title" content="Networker."/>
     <meta name="author" content="Edison Williams"/>
     <meta name="description" content="Portfolio site."/>
@@ -10,10 +9,31 @@
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:title" content="Networker"/>
     <meta name="twitter:description" content="Portfolio site."/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+    <link href="css/styles.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
+   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
-      <div class="about">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+   </div>
+  </nav>
+  <div class="body-container">
+    <div class="about" id="about">
       <h1>About Me</h1>
       <img class = "me-img"
       src="img/Edison.jpg" alt="me-pic" title="Me." />
@@ -30,14 +50,10 @@
       <p class="bot-p">Some other hobbies I have are reading, rowing, watching sports and educational YouTube videos.
       Favorite quote: "The journey of a thousand miles begins with a single step. - Lao Tzu</p>
     </div>
-    <div class="contact">
-     <div class="contact-right">
-      <iframe class="map" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=The%20University%20of%20Toledo%2C%20West%20Bancroft%20Street%2C%20Toledo%2C%20OH%2C%20United%20States&key=AIzaSyAxslXA6CWaYnCJjx_mmZr8KEpHTLYQPNs"></iframe>
-    </div>
-    <div class="contact-left">
+    <div class="contact" id="contact">
         <div id="form-main">
           <div id="form-div">
-            <form class="contact-form" id="form">
+            <form class="form" id="form1">
               <p class="name">
                 <input name="name" type="text" class="contact-input" placeholder="Name" id="name" />
               </p>
@@ -49,11 +65,15 @@
               </p>
               <div class="submit">
                 <input type="submit" value="SEND" id="button-blue"/>
+                <div class="ease"></div>
               </div>
             </form>
           </div>
         </div>
-      </div>
     </div>
   <body>
-</html>
+</html>   
+
+
+
+
