@@ -24,6 +24,27 @@ body {
   margin-bottom: 10%;
 }
 
+.btn {
+  margin-top: 5%;
+}
+
+.toggle_demo {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  height: 300px;
+  width: auto;
+  background-color: #818181;
+  clear: both;
+}
+
+.demo {
+  background-color: #000012;
+  width: 200px;
+  height: 100px;
+}
+
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px)
 {
