@@ -4,30 +4,24 @@ html {
   background-size: 100% auto; !important;
   background-repeat: repeat; !important;
 }
-
 body {
   font-family: 'Merriweather', serif;
   background: rgba(0,0,0,0);
   width: 100%;
   height: 100%;
 }
-
 .navbar-inverse {
   background-color: #000012;
 }
-
 .body-container {
   margin-top: 5% !important;
 }
-
 #form-main {
   margin-bottom: 10%;
 }
-
 .btn {
   margin-top: 5%;
 }
-
 .toggle_demo {
   display: block;
   position: relative;
@@ -38,13 +32,11 @@ body {
   background-color: #818181;
   clear: both;
 }
-
 .demo {
   background-color: #000012;
   width: 200px;
   height: 100px;
 }
-
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px)
 {
@@ -54,7 +46,6 @@ body {
   margin-top: 5%;
   color: #FFF;
 }  
-
  .me-img {
   display: block;
   margin: 0 auto;
@@ -62,7 +53,6 @@ body {
   width: 75px;
   height: auto;
  }
-
  .top-p {
    text-align: center;
    margin-top: 10%;
@@ -72,7 +62,6 @@ body {
    line-height: 1em;
    color: #FFF;
  }
-
  .bot-p {
    text-align: center;
    margin-top: 5%;
@@ -82,7 +71,6 @@ body {
    line-height: 1em;
    color: #FFF;
  }
-
  .skills-list {
    color: #FFF;
    list-style: none;
@@ -90,7 +78,6 @@ body {
    font-size: .5em;
    margin-top: 7%;
  }
-
  .skills-list li {
    display: inline-block;
    padding: 10px;
@@ -98,14 +85,10 @@ body {
    font-size: .5em;
    font-family: 'Fondamento', cursive;
  }
- .map {
-    display: none;
- }
- #form-main{
+ #form-main {
     width:100%;
     padding-top:0px;
-  }
-
+ }
   #form-div {
     background-color:rgba(60,120,140,0.9);
     padding-left:35px;
@@ -119,7 +102,6 @@ body {
     margin-top:20px;
     margin-left: -175px;
   }
-
   .contact-input {
     color:#000;
     font-family: Helvetica, Arial, sans-serif;
@@ -136,7 +118,6 @@ body {
     box-sizing: border-box;
     border: 3px solid rgba(0,0,0,0);
   }
-  
   .contact-input:focus{
     background: #fff;
     box-shadow: 0;
@@ -145,24 +126,20 @@ body {
     outline: none;
     padding: 13px 13px 13px 13px;
   }
-
   .focused{
     color:#30aed6;
     border:#30aed6 solid 3px;
   }
-  
    textarea {
       width: 100%;
       height: 100px;
       line-height: 150%;
       resize:vertical;
   }
-
   input:hover, textarea:hover,
   input:focus, textarea:focus {
     background-color:white;
   }  
-
   #button-blue{
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     float:left;
@@ -177,16 +154,13 @@ body {
     margin-top:-4px;
     font-weight:700;
   }
-
   #button-blue:hover{
     background-color: rgba(0,0,0,0);
     color: #0493bd;
   }
-
   .submit:hover {
     color: #3498db;
   }
-
   .ease {
     width: 0px;
     height: 74px;
@@ -197,13 +171,11 @@ body {
     -ms-transition: .3s ease;
     transition: .3s ease;
   }
-
   .submit:hover .ease{
     width:100%;
-    background-color:white;
+    background-color:black;
   }  
 }
-
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px)
 {
@@ -213,7 +185,6 @@ body {
     margin-top: 5%;
     color: #FFF;
   }
-
   .me-img {
     display: block;
     margin: 0 auto;
@@ -221,7 +192,6 @@ body {
     width: 100px;
     height: auto;
   }
-
   .top-p {
     text-align: center;
     margin-top: 7%;
@@ -231,7 +201,6 @@ body {
     line-height: 1.5em;
     color: #FFF;
   }
-
   .bot-p {
     text-align: center;
     margin-top: 5%;
@@ -241,7 +210,6 @@ body {
     line-height: 1.5em;
     color: #FFF;
   }
-
   .skills-list {
     color: #FFF;
     list-style: none;
@@ -249,7 +217,6 @@ body {
     text-align: center;
     margin-top: 7%;
   }
-
   .skills-list li {
     display: inline-block;
     text-align: center;
@@ -258,15 +225,11 @@ body {
     font-size: .75em;
     font-family: 'Fondamento', cursive;
   }
-  .map {
-    display: none;
-  }
   #form-main{
     width:100%;
     float:left;
     padding-top:0px;
   }
-
   #form-div {
     background-color:rgba(60,120,140,0.9);
     padding-left:35px;
@@ -280,7 +243,6 @@ body {
     margin-top:20px;
     margin-left: -175px;
   }
-
   .contact-input {
     color:#000;
     font-family: Helvetica, Arial, sans-serif;
@@ -297,7 +259,6 @@ body {
     box-sizing: border-box;
     border: 3px solid rgba(0,0,0,0);
   }
-
   .contact-input:focus{
     background: #fff;
     box-shadow: 0;
@@ -306,24 +267,20 @@ body {
     outline: none;
     padding: 13px 13px 13px 13px;
   }
-
   .focused{
     color:#30aed6;
     border:#30aed6 solid 3px;
   }
-
   textarea {
       width: 100%;
       height: 100px;
       line-height: 150%;
       resize:vertical;
   }
-
   input:hover, textarea:hover,
   input:focus, textarea:focus {
     background-color:white;
   } 
-
   #button-blue{
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     float:left;
@@ -338,16 +295,13 @@ body {
     margin-top:-4px;
     font-weight:700;
   }
-  
   #button-blue:hover{
     background-color: rgba(0,0,0,0);
     color: #0493bd;
   }
-
   .submit:hover {
     color: #3498db;
   }
-
   .ease {
     width: 0px;
     height: 74px;
@@ -358,24 +312,20 @@ body {
     -ms-transition: .3s ease;
     transition: .3s ease;
   }
-
   .submit:hover .ease{
     width:100%;
-    background-color:white;
+    background-color:black;
   }
 }
-
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px)
 {
-
   h1 {
     text-align: center;
     font-size: 3em;
     margin-top: 5%;
     color: #FFF;
   }
-
   .me-img {
     display: block;
     margin: 0 auto;
@@ -383,7 +333,6 @@ body {
     width: 200px;
     height: auto;
   }
-
   .top-p {
     text-align: center;
     margin-top: 7%;
@@ -393,7 +342,6 @@ body {
     line-height: 1.5em;
     color: #FFF;
   }
-
   .bot-p {
     text-align: center;
     margin-top: 5%;
@@ -403,7 +351,6 @@ body {
     line-height: 1.5em;
     color: #FFF;
   }
-
   .skills-list {
     color: #FFF;
     list-style: none;
@@ -411,7 +358,6 @@ body {
     font-size: .875em;
     margin-top: 4%;
   }
-
   .skills-list li {
     display: inline-block;
     text-align: center;
@@ -420,21 +366,11 @@ body {
     font-size: .875em;
     font-family: 'Fondamento', cursive;
   }
-   .map {
-    width: 400px;
-    height: 430px;
-    margin: 0 auto;
-    text-align: center;
-    display: block;
-    position: relative;
-    margin-top: 5%;
-  }
    #form-main{
     width:100%;
     float:left;
     padding-top:0px;
   }
-
   #form-div {
     background-color:rgba(60,120,140,0.9);
     padding-left:35px;
@@ -448,7 +384,6 @@ body {
     margin-top:20px;
     margin-left: -175px;
   }
-
   .contact-input {
     color:#000;
     font-family: Helvetica, Arial, sans-serif;
@@ -465,7 +400,6 @@ body {
     box-sizing: border-box;
     border: 3px solid rgba(0,0,0,0);
   }
-
   .contact-input:focus{
     background: #fff;
     box-shadow: 0;
@@ -474,24 +408,20 @@ body {
     outline: none;
     padding: 13px 13px 13px 13px;
   }
-
   .focused{
     color:#30aed6;
     border:#30aed6 solid 3px;
   }
-
   textarea {
       width: 100%;
       height: 100px;
       line-height: 150%;
       resize:vertical;
   }
-
   input:hover, textarea:hover,
   input:focus, textarea:focus {
     background-color:white;
   }  
-
   #button-blue{
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     float:left;
@@ -506,16 +436,13 @@ body {
     margin-top:-4px;
     font-weight:700;
   }
-
   #button-blue:hover{
     background-color: rgba(0,0,0,0);
     color: #0493bd;
   }
-
   .submit:hover {
     color: #3498db;
   }
-
   .ease {
     width: 0px;
     height: 74px;
@@ -526,13 +453,11 @@ body {
     -ms-transition: .3s ease;
     transition: .3s ease;
   }
-
   .submit:hover .ease{
     width:100%;
-    background-color:white;
+    background-color:black;
   }
 }
-
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px)
 {
@@ -543,7 +468,6 @@ body {
     width: 250px;
     height: auto;
   }
-
   .top-p {
     text-align: center;
     margin-top: 5%;
@@ -553,7 +477,6 @@ body {
     line-height: 1.5em;
     color: #FFF;
   }
-
   .bot-p {
     text-align: center;
     margin-top: 3%;
@@ -563,7 +486,6 @@ body {
     line-height: 1.5em;
     color: #FFF;
   }
-
   .skills-list {
     color: #FFF;
     list-style: none;
@@ -571,7 +493,6 @@ body {
     font-size: 1em;
     margin-top: 3%;
   }
-
   .skills-list li {
     display: inline-block;
     text-align: center;
@@ -580,21 +501,11 @@ body {
     font-weight: bold;
     font-family: 'Fondamento', cursive;
   }
-   .map {
-    width: 400px;
-    height: 430px;
-    margin: 0 auto;
-    text-align: center;
-    display: block;
-    position: relative;
-    margin-top: 5%;
-  }
    #form-main{
     width:100%;
     float:left;
     padding-top:0px;
   }
-
   #form-div {
     background-color:rgba(60,120,140,0.9);
     padding-left:35px;
@@ -608,7 +519,6 @@ body {
     margin-top:20px;
     margin-left: -175px;
   }
-
   .contact-input {
     color:#000;
     font-family: Helvetica, Arial, sans-serif;
@@ -625,7 +535,6 @@ body {
     box-sizing: border-box;
     border: 3px solid rgba(0,0,0,0);
   }
-
   .contact-input:focus{
     background: #fff;
     box-shadow: 0;
@@ -634,24 +543,20 @@ body {
     outline: none;
     padding: 13px 13px 13px 13px;
   }
-
   .focused{
     color:#30aed6;
     border:#30aed6 solid 3px;
   }
-
   textarea {
-      width: 100%;
-      height: 100px;
-      line-height: 150%;
-      resize:vertical;
+    width: 100%;
+    height: 100px;
+    line-height: 150%;
+    resize:vertical;
   }
-
   input:hover, textarea:hover,
   input:focus, textarea:focus {
     background-color:white;
   }
-
   #button-blue{
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     float:left;
@@ -666,16 +571,13 @@ body {
     margin-top:-4px;
     font-weight:700;
   }
-
   #button-blue:hover{
     background-color: rgba(0,0,0,0);
     color: #0493bd;
   }
-
   .submit:hover {
     color: #3498db;
   }
-
   .ease {
     width: 0px;
     height: 74px;
@@ -686,13 +588,11 @@ body {
     -ms-transition: .3s ease;
     transition: .3s ease;
   }
-
   .submit:hover .ease{
     width:100%;
-    background-color:white;
+    background-color:black;
   }
 }
-
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px)
 {
@@ -703,7 +603,6 @@ body {
     width: 250px;
     height: auto;
   }
-
   .top-p {
     text-align: center;
     margin-top: 5%;
@@ -713,7 +612,6 @@ body {
     line-height: 1.5em;
     color: #FFF;
   }
-
   .bot-p {
     text-align: center;
     margin-top: 3%;
@@ -723,7 +621,6 @@ body {
     line-height: 1.5em;
     color: #FFF;
   }
-
   .skills-list {
     color: #FFF;
     list-style: none;
@@ -731,7 +628,6 @@ body {
     text-align: center;
     margin-top: 3%;
   }
-
   .skills-list li {
     display: inline-block;
     text-align: center;
@@ -740,21 +636,11 @@ body {
     font-weight: bold;
     font-family: 'Fondamento', cursive;
   }
-   .map {
-    width: 600px;
-    height: 515px;
-    margin: 0 auto;
-    text-align: center;
-    display: block;
-    position: relative;
-    margin-top: 5%;
-  }
-   #form-main{
+   #form-main {
     width:100%;
     float:left;
     padding-top:0px;
   }
-
   #form-div {
     background-color:rgba(60,120,140,0.9);
     padding-left:35px;
@@ -768,7 +654,6 @@ body {
     margin-top:30px;
     margin-left: -227px;
   }
-
   .contact-input {
     color:#000;
     font-family: Helvetica, Arial, sans-serif;
@@ -785,7 +670,6 @@ body {
     box-sizing: border-box;
     border: 3px solid rgba(0,0,0,0);
   }
-
   .contact-input:focus{
     background: #fff;
     box-shadow: 0;
@@ -794,23 +678,20 @@ body {
     outline: none;
     padding: 13px 13px 13px 13px;
   }
-
   .focused{
     color:#30aed6;
     border:#30aed6 solid 3px;
   } 
-
   textarea {
-      width: 100%;
-      height: 150px;
-      line-height: 150%;
-      resize:vertical;
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
   }
-
   input:hover, textarea:hover,
   input:focus, textarea:focus {
     background-color:white;
-
+  }
   #button-blue{
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     float:left;
@@ -825,19 +706,16 @@ body {
     margin-top:-4px;
     font-weight:700;
   }
-
   #button-blue:hover{
     background-color: rgba(0,0,0,0);
     color: #0493bd;
   }
-
   .submit:hover {
     color: #3498db;
   }
-
   .ease {
     width: 0px;
-    height: 74px;
+    height: 85px;
     background-color: #fbfbfb;
     -webkit-transition: .3s ease;
     -moz-transition: .3s ease;
@@ -845,7 +723,6 @@ body {
     -ms-transition: .3s ease;
     transition: .3s ease;
   }
-
   .submit:hover .ease{
     width:100%;
     background-color:black;
